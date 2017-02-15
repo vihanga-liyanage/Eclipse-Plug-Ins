@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.wso2.vihanga.example.student.feature_1.0.0.201702152207.jar" id="org.wso2.vihanga.example.student.feature" version="1.0.0.201702152207"/>
+</site>

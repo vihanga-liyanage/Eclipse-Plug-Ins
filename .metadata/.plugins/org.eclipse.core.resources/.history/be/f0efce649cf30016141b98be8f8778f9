@@ -1,0 +1,9 @@
+grammar org.wso2.vihanga.example.student.Student with org.eclipse.xtext.common.Terminals
+
+generate student "http://www.wso2.org/vihanga/example/student/Student"
+
+Model:
+	greetings+=Greeting*;
+	
+Greeting:
+	'Hello' name=ID '!';

@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.1.0'?>
+<repository name='file:/D:/Developer/My%20Projects/Eclipse-Plug-Ins/.metadata/.plugins/org.eclipse.pde.core/tempp2metadata - metadata' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1487176675522'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <units size='6'>
+    <unit id='org.wso2.vihanga.example.student.ide' version='1.0.0.201702152207'>
+      <update id='org.wso2.vihanga.example.student.ide' range='[0.0.0,1.0.0.201702152207)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='org.wso2.vihanga.example.student.ide'/>
+        <property name='org.eclipse.equinox.p2.provider' value='My Company'/>
+      </properties>
+      <provides size='5'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.wso2.vihanga.example.student.ide' version='1.0.0.201702152207'/>
+        <provided namespace='osgi.bundle' name='org.wso2.vihanga.example.student.ide' version='1.0.0.201702152207'/>
+        <provided namespace='java.package' name='org.wso2.vihanga.example.student.ide.contentassist.antlr' version='0.0.0'/>
+        <provided namespace='java.package' name='org.wso2.vihanga.example.student.ide.contentassist.antlr.internal' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='4'>
+        <required namespace='osgi.bundle' name='org.wso2.vihanga.example.student' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.xtext.ide' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.xtext.xbase.ide' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.antlr.runtime' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.wso2.vihanga.example.student.ide' version='1.0.0.201702152207'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.wso2.vihanga.example.student.ide; singleton:=true&#xA;Bundle-Version: 1.0.0.201702152207
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.wso2.vihanga.example.student.feature.feature.jar' version='1.0.0.201702152207'>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.name' value='Student Feature'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.wso2.vihanga.example.student.feature.feature.jar' version='1.0.0.201702152207'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.wso2.vihanga.example.student.feature' version='1.0.0.201702152207'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.wso2.vihanga.example.student.feature' version='1.0.0.201702152207'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.wso2.vihanga.example.student.ui' version='1.0.0.201702152207'>
+      <update id='org.wso2.vihanga.example.student.ui' range='[0.0.0,1.0.0.201702152207)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='org.wso2.vihanga.example.student.ui'/>
+        <property name='org.eclipse.equinox.p2.provider' value='My Company'/>
+      </properties>
+      <provides size='6'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.wso2.vihanga.example.student.ui' version='1.0.0.201702152207'/>
+        <provided namespace='osgi.bundle' name='org.wso2.vihanga.example.student.ui' version='1.0.0.201702152207'/>
+        <provided namespace='java.package' name='org.wso2.vihanga.example.student.ui.quickfix' version='0.0.0'/>
+        <provided namespace='java.package' name='org.wso2.vihanga.example.student.ui.internal' version='0.0.0'/>
+        <provided namespace='java.package' name='org.wso2.vihanga.example.student.ui.contentassist' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='13'>
+        <required namespace='osgi.bundle' name='org.wso2.vihanga.example.student' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.wso2.vihanga.example.student.ide' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.xtext.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.xtext.ui.shared' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.xtext.ui.codetemplates.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.editors' range='3.5.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='3.5.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.compare' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.xtext.builder' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.xtend.lib' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='osgi.bundle' name='org.eclipse.xtext.xbase.lib' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.log4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.wso2.vihanga.example.student.ui' version='1.0.0.201702152207'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.wso2.vihanga.example.student.ui; singleton:=true&#xA;Bundle-Version: 1.0.0.201702152207
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='Default' version='1.0.0.2--cKD-HF7735G375C773G'>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='Uncategorized'/>
+        <property name='org.eclipse.equinox.p2.description' value='Default category for otherwise uncategorized features'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='Default' version='1.0.0.2--cKD-HF7735G375C773G'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.wso2.vihanga.example.student.feature.feature.group' range='[1.0.0.201702152207,1.0.0.201702152207]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='org.wso2.vihanga.example.student.feature.feature.group' version='1.0.0.201702152207' singleton='false'>
+      <update id='org.wso2.vihanga.example.student.feature.feature.group' range='[0.0.0,1.0.0.201702152207)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Student Feature'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.wso2.vihanga.example.student.feature.feature.group' version='1.0.0.201702152207'/>
+      </provides>
+      <requires size='4'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.wso2.vihanga.example.student' range='[1.0.0.201702152207,1.0.0.201702152207]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.wso2.vihanga.example.student.ide' range='[1.0.0.201702152207,1.0.0.201702152207]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.wso2.vihanga.example.student.ui' range='[1.0.0.201702152207,1.0.0.201702152207]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.wso2.vihanga.example.student.feature.feature.jar' range='[1.0.0.201702152207,1.0.0.201702152207]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='org.wso2.vihanga.example.student' version='1.0.0.201702152207'>
+      <update id='org.wso2.vihanga.example.student' range='[0.0.0,1.0.0.201702152207)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='org.wso2.vihanga.example.student'/>
+        <property name='org.eclipse.equinox.p2.provider' value='My Company'/>
+      </properties>
+      <provides size='14'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.wso2.vihanga.example.student' version='1.0.0.201702152207'/>
+        <provided namespace='osgi.bundle' name='org.wso2.vihanga.example.student' version='1.0.0.201702152207'/>
+        <provided namespace='java.package' name='org.wso2.vihanga.example.student.generator' version='0.0.0'/>
+        <provided namespace='java.package' name='org.wso2.vihanga.example.student.student.util' version='0.0.0'/>
+        <provided namespace='java.package' name='org.wso2.vihanga.example.student' version='0.0.0'/>
+        <provided namespace='java.package' name='org.wso2.vihanga.example.student.serializer' version='0.0.0'/>
+        <provided namespace='java.package' name='org.wso2.vihanga.example.student.parser.antlr' version='0.0.0'/>
+        <provided namespace='java.package' name='org.wso2.vihanga.example.student.student' version='0.0.0'/>
+        <provided namespace='java.package' name='org.wso2.vihanga.example.student.validation' version='0.0.0'/>
+        <provided namespace='java.package' name='org.wso2.vihanga.example.student.scoping' version='0.0.0'/>
+        <provided namespace='java.package' name='org.wso2.vihanga.example.student.services' version='0.0.0'/>
+        <provided namespace='java.package' name='org.wso2.vihanga.example.student.parser.antlr.internal' version='0.0.0'/>
+        <provided namespace='java.package' name='org.wso2.vihanga.example.student.student.impl' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='10'>
+        <required namespace='osgi.bundle' name='org.eclipse.xtext' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.xtext.xbase' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.equinox.common' range='3.5.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.emf.ecore' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.xtext.xbase.lib' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.antlr.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.xtext.util' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.xtend.lib' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.emf.common' range='0.0.0'/>
+        <required namespace='java.package' name='org.apache.log4j' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.wso2.vihanga.example.student' version='1.0.0.201702152207'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.wso2.vihanga.example.student; singleton:=true&#xA;Bundle-Version: 1.0.0.201702152207
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+  </units>
+</repository>
